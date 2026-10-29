@@ -10,7 +10,7 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-  ],
+  ],build: { cssMinify: false },
   resolve: {
     alias: {
       '@': resolve(projectRoot, 'src')
